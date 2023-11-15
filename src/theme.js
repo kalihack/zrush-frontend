@@ -1,3 +1,4 @@
+import { Palette } from "@mui/icons-material";
 import { createTheme } from "@mui/material";
 
 const theme = createTheme({
@@ -107,6 +108,9 @@ const theme = createTheme({
       yellow:"#FFCA41",
       black:"#000"
     },
+    grey:{
+      main:"#868686",
+    },
     success: {
       main: "#4caf50",
     },
@@ -173,6 +177,13 @@ const theme = createTheme({
       "@media (max-width:600px)": {
         fontSize: ".75rem",
       },
+    },
+    uploadForm:{
+      color:"#868686",
+      fontSize: "20px",
+      fontStyle: "normal",
+      fontWeight: 400,
+      lineHeight: "180%", 
     },
     h4: {
       color: "#868686",

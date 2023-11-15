@@ -7,6 +7,7 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { Typography } from "@mui/material";
+import UploadPost from "./posts/UploadPost";
 
 const DashBoard = () => {
   const [value, setValue] = React.useState("1");
@@ -40,7 +41,10 @@ const DashBoard = () => {
             </TabList>
           </Box>
           <TabPanel value="1">
-            <Box sx={{padding:"40px 0px"}}><Posts /></Box>
+            <Box sx={{ padding: "40px 0px" }}>
+              {/* <Posts />  */}
+              <UploadPost />
+            </Box>
           </TabPanel>
           <TabPanel value="2">Item Two</TabPanel>
         </TabContext>

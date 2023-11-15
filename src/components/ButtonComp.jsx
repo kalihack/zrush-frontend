@@ -2,7 +2,7 @@ import { Button, Typography } from "@mui/material";
 import React from "react";
 import ImageComp from "./ImageComp";
 import theme from "../theme";
-const ButtonComp = ({ label, image, click, icon, customStyles,type }) => {
+const ButtonComp = ({ label, image, click, icon, customStyles, type }) => {
   const buttonStyles = {
     backgroundColor: "primary.main",
     color: "secondary.main",

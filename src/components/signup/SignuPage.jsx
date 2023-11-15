@@ -19,7 +19,6 @@ const SignuPage = () => {
   const initialValues = {
     // Define your form initial values here
     name:"",
-    userName:"",
     email:"",
     username: "",
     password: "",
